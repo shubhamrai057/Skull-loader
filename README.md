@@ -4,13 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Used Plugin
 
-No CSS Framework and JS plugin/package has been used in this project
+No CSS Framework and JS plugin/package has been used in this project except core react npm packages.
 
 ## About the project
 
-The Project is to show a loader initially then have to show loaded content, for POC purpose till 5 sec skeleton loader kept after wards static content will be displayed.
-We can make a network call as well and once response is there from the API we can use the same flag to switch from loader to content.
-Loader is used as a HOC, we can pass customProps and display any type of skeleton.
+Idea is to show skeleton (loader) initially and once content is loaded the animation will be replaced by the actual content. As this project is created just for POC purpose, so no external network call has been made into the project insted for displaying loader a flag with timer of 5 sec is there, so once timer duration completes actual content will be displayed. Note: Timer can be easily replaced by network calls.
 
 ## Available Scripts
 
